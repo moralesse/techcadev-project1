@@ -1,0 +1,159 @@
+.track-container {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 360px) {
+  .track-container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .sample-row {
+    display: block;
+    align-self: center;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.sample-row col {
+  width: auto;
+  height: inherit;
+}
+
+.column {
+  background-color: #1B2E59;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.enroll-button {
+  width: fit-content;
+  color: black;
+  background-color: white;
+}
+
+.track-container h4 {
+  justify-content: center;
+}
+
+.track-container div p {
+  font-size: 12px;
+}
+
+.track-container div h5 {
+  font-size: medium;
+  background-color: inherit;
+  padding-top: 10px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.track-container .enroll-btn {
+  width: fit-content;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* @media (max-width: 400px) {
+  .track-container {
+    display: inline-block;
+    grid-template-rows: auto auto auto;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media (min-width: 570px) {
+  .track-container {
+    grid-template-rows: 450px 450px 450px;
+  }
+}
+
+@media (min-width: 760px) {
+  .track-container {
+    grid-template-rows: 340px 340px 340px;
+  }
+}
+
+@media (min-width: 990px) {
+  .track-container {
+    grid-template-rows: 285px 285px 285px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .track-container {
+    grid-template-rows: 250px 250px 250px;
+  }
+} */
+
+.work-hard {
+  width: inherit;
+}
+
+.text-bg-light.instructors {
+  margin-top: 50px;
+}
+
+.about-image {
+  width: inherit;
+}
+
+.text-bg-light.vision {
+  margin-top: 30px;
+}
+
+.slide {
+  display: grid;
+}
+
+.slide-col > img {
+  height: 300px;
+  width: 200px;
+  background-color: inherit;
+}
+
+.see-more {
+  width: fit-content;
+  background-color: white;
+  color: black;
+  margin: auto;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+/* .faq-col2 {
+  column-width: 66.66%;
+}
+
+.faq-p {
+  font-size: 8px;
+} */
+
+.faq-btn {
+  width: fit-content;
+  color: black;
+  background-color: #e9b1b3 !important;
+  border: 0px;
+}
+
+.text-center {
+  text-align: center!important;
+  font-weight: bold;
+  background-color: rgba(35,39,41,0.92);
+}
+
+.track-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: #ffffff;
+}
+

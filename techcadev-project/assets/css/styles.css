@@ -1,0 +1,18 @@
+.about-container {
+  background-color: inherit;
+  width: 100%;
+}
+
+.about-image {
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.image-div {
+  width: 90;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
